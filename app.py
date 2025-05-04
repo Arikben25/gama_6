@@ -11,5 +11,3 @@ for word in text.split():
 
 def sum_of_the_different_words():
     return len(keys_by_words)
-
-

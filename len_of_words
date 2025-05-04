@@ -1,0 +1,11 @@
+
+
+def len_of_words(text):
+    big_len_word = [""]
+    for word in text.split():
+        if len(big_len_word[0]) < len(word):
+            big_len_word = [word]
+        elif len(big_len_word[0]) == len(word):
+            big_len_word.append(word)
+    return big_len_word
+
