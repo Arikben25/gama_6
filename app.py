@@ -20,6 +20,6 @@ def selecting_words_by_their_length(length):
         if v == length:
             result.append(k)
     return result
-x = int(input("enter num "))
-print(selecting_words_by_their_length(x))
+enter_len_of_word = int(input("please enter len of word! "))
+print(selecting_words_by_their_length(enter_len_of_word))
 
