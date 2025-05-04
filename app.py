@@ -9,5 +9,17 @@ for word in text.split():
     else:
         keys_by_words[word] += 1
 
+
 def sum_of_the_different_words():
     return len(keys_by_words)
+
+
+def selecting_words_by_their_length(length):
+    result = []
+    for k, v in keys_by_words.items():
+        if v == length:
+            result.append(k)
+    return result
+x = int(input("enter num "))
+print(selecting_words_by_their_length(x))
+
