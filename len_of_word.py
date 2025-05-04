@@ -1,5 +1,3 @@
-
-
 def len_of_words(text):
     big_len_word = [""]
     for word in text.split():
